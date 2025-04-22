@@ -420,3 +420,182 @@ body::before {
   font-weight: 700;
   font-size: 1.2em;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .welcome-card h1 {
+    font-size: 2.2em;
+  }
+  
+  .welcome-card h3 {
+    font-size: 1.4em;
+  }
+  
+  .welcome-card p {
+    font-size: 1em;
+  }
+  
+  .start-button {
+    font-size: 1.1em;
+    padding: 12px 24px;
+  }
+  
+  .search-card h1 {
+    font-size: 2em;
+  }
+  
+  .search-card h3 {
+    font-size: 1.3em;
+  }
+  
+  .search-input {
+    font-size: 1em;
+    padding: 12px 16px;
+  }
+  
+  .search-button {
+    font-size: 1.1em;
+    padding: 12px 24px;
+  }
+  
+  .dog-name {
+    font-size: 1.6em;
+  }
+  
+  .click-hint {
+    font-size: 1em;
+  }
+  
+  .dog-detail-name {
+    font-size: 2em;
+  }
+  
+  .stat-group h3 {
+    font-size: 1.3em;
+  }
+  
+  .stat-item span {
+    font-size: 1em;
+  }
+  
+  .rating {
+    font-size: 1em;
+    padding: 4px 12px;
+  }
+  
+  .close-button {
+    font-size: 1.1em;
+    padding: 10px 20px;
+  }
+  
+  .dog-details-card {
+    padding: 20px;
+  }
+  
+  .dog-stats {
+    gap: 20px;
+  }
+  
+  .stat-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-card h1 {
+    font-size: 1.8em;
+  }
+  
+  .welcome-card h3 {
+    font-size: 1.2em;
+  }
+  
+  .welcome-card p {
+    font-size: 0.9em;
+  }
+  
+  .start-button {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  
+  .search-card h1 {
+    font-size: 1.6em;
+  }
+  
+  .search-card h3 {
+    font-size: 1.1em;
+  }
+  
+  .search-input {
+    font-size: 0.9em;
+    padding: 10px 14px;
+  }
+  
+  .search-button {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  
+  .dog-name {
+    font-size: 1.4em;
+  }
+  
+  .click-hint {
+    font-size: 0.9em;
+  }
+  
+  .dog-detail-name {
+    font-size: 1.6em;
+  }
+  
+  .stat-group h3 {
+    font-size: 1.1em;
+  }
+  
+  .stat-item span {
+    font-size: 0.9em;
+  }
+  
+  .rating {
+    font-size: 0.9em;
+    padding: 3px 10px;
+  }
+  
+  .close-button {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+  
+  .dog-details-card {
+    padding: 15px;
+  }
+  
+  .dog-stats {
+    gap: 15px;
+  }
+  
+  .stat-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .dog-image-container {
+    max-width: 100%;
+  }
+  
+  .dog-detail-image {
+    max-width: 100%;
+  }
+}
+
+/* Fix for iOS Safari 100vh issue */
+@supports (-webkit-touch-callout: none) {
+  .app-container {
+    min-height: -webkit-fill-available;
+  }
+  
+  body {
+    min-height: -webkit-fill-available;
+  }
+}
+// ... existing code ...

@@ -14,7 +14,7 @@ export function DogData(){
     useEffect(() => {
         axios.get('https://api.api-ninjas.com/v1/dogs' , {
             headers : {
-                'X-Api-Key' : '/2y/qY3OmNrskZxr2uxvyA==X2Nb8xHB6wE4LDpA'
+                'X-Api-Key' : import.meta.env.VITE_API_NINJAS_KEY
             } , 
             params : {
                 'name' : `${dog}`
